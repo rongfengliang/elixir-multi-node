@@ -1,0 +1,9 @@
+{application,clusterdemo,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"clusterdemo"},
+              {modules,['Elixir.Clusterdemo','Elixir.Clusterdemo.Application',
+                        'Elixir.Clusterdemo.Supper']},
+              {registered,[]},
+              {vsn,"0.6.0"},
+              {extra_applications,[logger]},
+              {mod,{'Elixir.Clusterdemo.Application',[]}}]}.

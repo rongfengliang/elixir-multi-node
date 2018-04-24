@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+  first:
+    build: .
+    hostname: first
+  second:
+    build: .
+    hostname: second
+  third:
+    build: .
+    hostname: third
