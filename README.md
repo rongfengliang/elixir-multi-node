@@ -20,5 +20,8 @@ docker-compose up -d
 
 ```bash
 
+iex --sname second -S mix
+
+iex --sname fouth --erl " -config sys.config"  -S mix
 
 ```
